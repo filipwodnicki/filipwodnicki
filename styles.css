@@ -1,7 +1,17 @@
 
 
+p {
+	font-size: 16px;
+	/*font-family: 'Lato';*/
+	font-weight:normal;
+}
+
 strong {
 	color: #28078F;
+}
+
+footer{
+	text-align: center;
 }
 
 .center-block {
@@ -9,17 +19,6 @@ strong {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-h1{
-  font-size: 45px;
-  font-weight:bolder;
-}
-
-p {
-	font-size: 16px;
-	/*font-family: 'Lato';*/
-	font-weight:normal;
 }
 
 #nametag {
@@ -47,9 +46,7 @@ p {
   background: white;
 }
 
-footer{
-	text-align: center;
-}
+
 
 
 
