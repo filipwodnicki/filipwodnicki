@@ -5,6 +5,8 @@
 	    <meta charset="utf-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <link rel="stylesheet" href="styles.css" type="text/css">
+	    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+
 	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link href='https://fonts.googleapis.com/css?family=Lato:regular,bold,black' rel='stylesheet' type='text/css'>
 		<title>Filip Wodnicki</title>
@@ -39,6 +41,8 @@
 					<br>
 					<hr>
 					<br>
+					<h2 class="text-center" id="aboutme">About Me</h2>
+					<br>
 					<h4>I'm a <strong>programmer</strong>. I use Python for data analytics.</h4>
 					<p>I earned a Computer Science degree from UNC-Chapel Hill in 2017. I especially loved studying databases, theory of computation, and cloud computing. Most recently, I built <a href="https://woodcut-algorithm.herokuapp.com">Woodcut Algorithm</a> with Flask + Python backend to solve the cutting stock problem. See my other projects on <a href="https://github.com/filipwodnicki">Github</a>.</p>
 					<br>
@@ -46,19 +50,73 @@
 					<p>Currently based in Kraków, Poland. My prior background is in Environmental Science and teaching. I am motivated by a commitment to serve others. Technology should be used to make the world better. </p>
 					<br>
 					<h4>I'm an <strong>explorer</strong>. Passionate about public transport, geography, and airlines.</h4>
-					<p>For me, bliss is a journey with a window seat. Bliss looking at a map of any place I've been, or using it to teleport somewhere I haven't. Bliss is following curiosity and making connections to discover how everything works.</p>
+					<p>For me, bliss is a journey with a window seat.</p>
 					<br>
 					<hr>
-					<br>
-					<br>
+				</div>
+			</div>
+			<br>
+			<div class="row" id="projects">
+				<div class= "col-md-8 col-md-offset-2">
+					<h2 class="text-center">Projects</h2>
+				</div>
+			</div>
+			
+			<br>
+			<br>
+
+			<div class="row">
+				<!-- <div class="col-xs-6 col-md-4 col-md-offset-2"> -->
+				<div class="col-md-5 col-md-offset-1">
+					<div class="thumbnail">
+						<a href="https://lot-dash.herokuapp.com" target="_blank">
+							<img src="lot-dash.png" alt="LOT Polish Airlines USA-International Routes Dashboard 1990-2018">
+						</a>
+						<div class="caption">
+							<h2>lot-dash: Airline Dashboard</h2>
+							<p>Visualize statistics for USA-International airline routes.</p>
+							<p>Backend: Python 3.6 + Flask framework + PostgreSQL<br>Frontend: Bootstrap + leaflet.js + chart.js<br>Deployed with Heroku.</p>
+							<br>
+							<p><a href="https://lot-dash.herokuapp.com" class="btn btn-primary" role="button">Live app</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-5">
+					<div class="thumbnail">
+						<a href="https://woodcut-algorithm.herokuapp.com" target="_blank">
+							<img src="woodcut-algorithm.png" alt="Woodcut Algorithm an app to visualize solutions to the Cutting Stock Problem">
+						</a>
+						<div class="caption">
+							<h2>Woodcut Algorithm web app</h2>
+							<h3></h3>
+							<p>Visualize solutions to the cutting stock problem</p>
+							<p>Backend: Python 3.6 + Flask framework<br>Frontend: Bootstrap + chart.js<br>Deployed with Heroku.</p>
+							<br>
+							<p><a href="https://lot-dash.herokuapp.com" class="btn btn-primary" role="button">Live app</a>
+							</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<hr>
+			<div class="row">
+				<div class= "col-md-8 col-md-offset-2">
+					<h2 class="text-center">Contact</h2>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class= "col-md-8 col-md-offset-2">
 					<h5 class="text-center">Let's stay in touch!</h5>
-					<p class="text-center">See my projects on <a href="https://github.com/filipwodnicki">Github</a>.  Follow my writing on <a href="https://medium.com/@filipwodnicki">Medium</a>.  Connect via <a href="https://www.linkedin.com/in/filip-wodnicki/">LinkedIn</a>.<br>Email me anytime: <a href="mailto:hello@filipwodnicki.com">hello@filipwodnicki.com</a>. Thanks, talk to you soon!</p>
+					<p class="text-center">See my projects on <a href="https://github.com/filipwodnicki">Github</a>.<br>  Follow my writing on <a href="https://medium.com/@filipwodnicki">Medium</a>.<br>Connect via <a href="https://www.linkedin.com/in/filip-wodnicki/">LinkedIn</a>.<br>Email me anytime: <a href="mailto:hello@filipwodnicki.com">hello@filipwodnicki.com</a>.</p>
+					<p  class="text-center">Thanks, talk to you soon!</p>
 					<br>
 					<br>
 				</div>
 			</div>
-			<br>
-			<br>
 			<br>
 			<br>
 			<br>
@@ -70,5 +128,7 @@
 		</div>
 		
 	</body>
-
+	<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
 </html>
